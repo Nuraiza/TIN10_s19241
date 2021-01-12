@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 10</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+       
+           
+            <form>
+                <h3>Temperature Converter </h3>
+                
+                <label for="tinput">Temperature :</label>
+                <input type="number" id="tinput" name="tinput"><br><br>
+                <label for="tempfrom">From :</label>
+                <select name="tempfrom" id="tempfrom">
+                    <option value="celsius" >Celsius</option>
+                    <option value="kelvin" selected>Kelvin</option>
+                    <option value="fahrenheit">Fahrenheit </option>                   
+                </select>
+                <br><br>
+                
+                <label for="tempto">To :</label>
+                <select name="tempto" id="tempto">
+                    <option value="celsius" selected>Celsius</option>
+                    <option value="kelvin">Kelvin</option>
+                    <option value="fahrenheit" >Fahrenheit </option>                   
+                </select><br><br>
+                <button type="button" id="tempbutton">Convert</button><br>
+                <p id="tempresult">Result :</p>
+
+            </form>
+      
+
+            <form>
+                <h3>Distance Converter </h3>
+                
+                <label for="dinput">Distance :</label>
+                <input type="number" id="dinput" name="dinput" ><br><br>
+                <label for="distfrom">From :</label>
+                <select name="distfrom" id="distfrom">
+                    <option value="mile" >Mile</option>
+                    <option value="kilometer" selected>Kilometer</option>                
+                </select>
+                <br><br>
+                <label for="distto">To :</label>
+                <select name="distto" id="distto">
+                    <option value="kilometer" selected>Kilometer</option>
+                    <option value="mile">Mile</option>                 
+                </select><br><br>
+                <button type="button"  id="distbutton">Convert</button><br>
+                <p id="distresult">Result :</p>
+
+            </form>
+        </div>
+    
+    <script src="./bundle.js"></script>
+</body>
+</html>
